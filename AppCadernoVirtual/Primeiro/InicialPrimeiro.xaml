@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.InicialPrimeiro"
+             Title="         1º Ano - Matérias" >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <!--Label: um texto
+                Text: texto que aparece na label
+                VerticalOptions: onde vai ficar verticalmente. No caso, start (no COMEÇO da parte de cima (topo))
+                HorizontalOptions: como fica horizontalmente. No caso, centralizado e expandido, fazendo o texto (não o escrito,
+                só a borda do elemento (não sei explicar mt bem, mas se colocasse uma borda, ela iria de um lado até o outro da tela.
+                se fosse só "center", a borda ficaria só envolta do escrito))
+            -->
+            
+            <!-- Os outros comentários estão na tela de Português só -->
+            <Label Text="Lista de Matérias do 1º Ano"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Português" x:Name="BtnPortugues" Clicked="BtnPortugues_Clicked" />
+            <Button Text="Inglês" x:Name="BtnIngles" Clicked="BtnIngles_Clicked" />
+            <Button Text="Geografia" x:Name="BtnGeografia" Clicked="BtnGeografia_Clicked" />
+            <Button Text="História" x:Name="BtnHistoria" Clicked="BtnHistoria_Clicked" />
+            <Button Text="Física" x:Name="BtnFisica" Clicked="BtnFisica_Clicked" />
+            <Button Text="Química" x:Name="BtnQuimica" Clicked="BtnQuimica_Clicked" />
+            <Button Text="Biologia" x:Name="BtnBiologia" Clicked="BtnBiologia_Clicked" />
+            <Button Text="Filosofia" x:Name="BtnFilosofia" Clicked="BtnFilosofia_Clicked" />
+            <Button Text="Educação Física" x:Name="BtnEducacaoFisica" Clicked="BtnEducacaoFisica_Clicked" />
+            <Button Text="Artes" x:Name="BtnArtes" Clicked="BtnArtes_Clicked" />
+
+            <Button Text="Programação WEB I" x:Name="BtnProgramacaoWeb" Clicked="BtnProgramacaoWeb_Clicked" />
+            <Button Text="Análise e Projeto de Sistemas" x:Name="BtnAnalise" Clicked="BtnAnalise_Clicked" />
+            <Button Text="Design Digital" x:Name="BtnDesignDigital" Clicked="BtnDesignDigital_Clicked" />
+            <Button Text="Fundamentos da Informática" x:Name="BtnFundamentosInformatica" Clicked="BtnFundamentosInformatica_Clicked" />
+            <Button Text="Técnicas de Programação de Algoritmos" x:Name="BtnAlgoritmos" Clicked="BtnAlgoritmos_Clicked" />
+            <Button Text="Banco de Dados I" x:Name="BtnBancoDeDados" Clicked="BtnBancoDeDados_Clicked" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.EducacaoFisicaSegundo"
+             Title="2º E.M. - Educação Física" >
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+            <Label Text="Atividade proposta da aula dada acolhimento aos discentes. Material uma folha de papel e caneta na cor azul ou preta. Descreva e responda as seguintes questões: o que significou a pandemia da covid-19 para mim? O que aprendi? O que descobri? Quais foram as minhas dores? No verso da folha a seguinte questão: o que mudou na minha vida? Responda as questões individualmente, reúnam -se em equipes, debatam em equipes e na sala.	" />
+            <Label Text="Participação da aluna (o) na aula dada no ensino híbrido na aula expositiva e dialogada com a atribuição do questionário forms esporte individual práticas indevidas (doping, postura antidesportivas entre outras) e a contextualização da ginástica laboral com exercícios respiratórios utilizando o material da bexiga." />
+            <Label Text="Atividade proposta na aula dada com a participação da aluna (o) no ensino híbrido pela plataforma da microsoft teams na aula prática da ginástica laboral com a medição da altura dos discentes e o cálculo do IMC e a consulta na classificação do gênero feminino e masculino." />
+            <Label Text="Atividade proposta na aula dada com a participação da aluna (o) no ensino híbrido pela plataforma da microsoft teams na aula prática de dança." />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

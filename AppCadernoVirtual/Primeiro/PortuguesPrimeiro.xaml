@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.PortuguesPrimeiro"
+             Title="1º E.M. - Português">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <!-- FontSize: tamanho da fonte -->
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+            <Label Text="Comunicação Verbal e não Verbal" />
+            <Label Text="Fonética" />
+            <Label Text="Literatura: Trovadorismo" />
+            <Label Text="Gramática: Ortografia I - Uso dos porquês" />
+            <Label Text="Acentuação gráfica" />
+            <Label Text="Literatura: Barroco" />
+            <Label Text="Figuras de linguagem" />
+            <Label Text="Arcadismo" />
+            <Label Text="Prosa Romântica" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

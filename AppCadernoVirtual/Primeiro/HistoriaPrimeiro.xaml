@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.HistoriaPrimeiro"
+             Title="1º E.M. - História">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+            <Label Text="Leituras da realidade e ideologia" />
+            <Label Text="Conhecimento Histórico" />
+            <Label Text="Senso Crítico" />
+            <Label Text="Mesopotâmicos, Fenícios e Hebreus" />
+            <Label Text="Fenícios" />
+            <Label Text="Egípcios" />
+            <Label Text="Povos Gregos" />
+            <Label Text="Hebreus, Fenícios e Egípcios" />
+            <Label Text="As transformações pelas quais passou o trabalho compulsório e a construção da cultura e da sociedade na Antiguidade: I. Guerras Gregas: Guerras Médicas Guerras do Peloponeso Período Helenístico; II. Roma: Monarquia, República e Império" />
+            <Label Text="Roma: Monarquia, república e Império" />
+            <Label Text="Civilização Romana" />
+            <Label Text="Queda do Império Romano do Ocidente" />
+            <Label Text="Formação da Europa Medieval" />
+            <Label Text="Vikings e Muçulmanos" />
+            <Label Text="Feudalismo" />
+            <Label Text="A crise do sistema feudal a Baixa Idade Média" />
+            <Label Text="As Cruzadas e as suas relações com o Renascimento comercial e urbano" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

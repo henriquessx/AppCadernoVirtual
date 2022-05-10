@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.GeografiaPrimeiro"
+             Title="1º E.M. - Geografia">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="1º E.M. - Geografia"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+            <Label Text="Noções básicas de Geografia" />
+            <Label Text="O espaço do Homem" />
+            <Label Text="Globalização e cidadão globalizado" />
+            <Label Text="O espaço do Homem na Época Industrial" />
+            <Label Text="Migração - tipos" />
+            <Label Text="Migração e Teorias Populacionais" />
+            <Label Text="População Brasileira" />
+            <Label Text="Socialismo e suas características" />
+            <Label Text="Socialismo e Comunismo" />
+            <Label Text="Guerra Fria" />
+            <Label Text="Corrida armamentista e espacial" />
+            <Label Text="fim da URSS" />
+            <Label Text="Dinâmica Climática da Terra" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

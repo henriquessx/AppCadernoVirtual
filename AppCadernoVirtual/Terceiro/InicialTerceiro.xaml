@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.InicialTerceiro"
+             Title="3º E.M. - Matérias" >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Lista de Matérias do 3º E.M."
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Português" x:Name="BtnPortugues" Clicked="BtnPortugues_Clicked" />
+            <Button Text="Inglês" x:Name="BtnIngles" Clicked="BtnIngles_Clicked" />
+            <Button Text="Geografia" x:Name="BtnGeografia" Clicked="BtnGeografia_Clicked" />
+            <Button Text="História" x:Name="BtnHistoria" Clicked="BtnHistoria_Clicked" />
+            <Button Text="Física" x:Name="BtnFisica" Clicked="BtnFisica_Clicked" />
+            <Button Text="Química" x:Name="BtnQuimica" Clicked="BtnQuimica_Clicked" />
+            <Button Text="Biologia" x:Name="BtnBiologia" Clicked="BtnBiologia_Clicked" />
+            <Button Text="Filosofia" x:Name="BtnFilosofia" Clicked="BtnFilosofia_Clicked" />
+            <Button Text="Educação Física" x:Name="BtnEducacaoFisica" Clicked="BtnEducacaoFisica_Clicked" />
+            <Button Text="Sociologia" x:Name="BtnSociologia" Clicked="BtnSociologia_Clicked" />
+
+            <Button Text="Programação WEB III" x:Name="BtnProgWeb" Clicked="BtnProgWeb_Clicked" />
+            <Button Text="Programação de Aplicativos Mobile II" x:Name="BtnProgMobile" Clicked="BtnProgMobile_Clicked" />
+            <Button Text="Internet, Protocolos e Segurança de Sistemas da Informação" x:Name="BtnInternet" Clicked="BtnInternet_Clicked" />
+            <Button Text="Planejamento de Trabalho de Conclusão de Curso" x:Name="BtnTCC" Clicked="BtnTCC_Clicked" />
+            <Button Text="Qualidade e Teste de Software" x:Name="BtnQualidade" Clicked="BtnQualidade_Clicked" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

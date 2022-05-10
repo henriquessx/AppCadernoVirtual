@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.MainPage"
+             Title="📖 - Caderno Virtual"
+             BackgroundColor="White"
+             Padding="12">
+             <!-- Title: texto que aparece no topo, na parte da navegação -->
+    
+    <!-- StackLayout: para fazer os elementos ficarem um encima do outro -->
+    <StackLayout>
+        <!-- Button: botao. Text: texto que aparece no botao. x:Name: nome para usar na programação. Clicked: método que é chamado quando clica nele -->
+        <!-- O resto dos comentários está só na pagina inicial da tela das matérias do primeiro -->
+
+        <Button Text="Primeiro Ano" Clicked="BtnPrimeiro_Clicked" BackgroundColor="#C0C0C0"/>
+        <Button Text="Segundo Ano"  Clicked="BtnSegundo_Clicked" BackgroundColor="#C0C0C0"/>
+        <Button Text="Terceiro Ano" Clicked="BtnTerceiro_Clicked" BackgroundColor="#C0C0C0"/>
+
+
+        <Image Source="https://media.discordapp.net/attachments/965797685548445719/972152306952970330/IMG_0013.png"/>
+    </StackLayout>
+
+</ContentPage>

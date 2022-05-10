@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.InglesPrimerio"
+             Title="1º E.M. - Inglês">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+            <Label Text="Subject and object Pronouns" />
+            <Label Text="Pronomes personal, possessive, object, reflexive" />
+            <Label Text="Substantivos contáveis e incontáveis" />
+            <Label Text="Adverbios" />
+            <Label Text="Numerais" />
+            <Label Text="Simple Past" />
+            <Label Text="auxiliares Do/Does" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
